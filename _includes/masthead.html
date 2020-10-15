@@ -4,12 +4,12 @@
   {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
 {% endif %}
 
-<img align="center" src="https://github-readme-stats.vercel.app/api/?username=CiTRuS93&theme=dark"/>
+
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
   {{ user.bio }}
 </p>
-
+<img align="center" src="https://github-readme-stats.vercel.app/api/?username=CiTRuS93&theme=dark"/>
 {% if include.metadata %}
   <div class="f4 mb-6">
     {% if user.name %}
@@ -47,9 +47,6 @@
         {% endfor %}
       </div>
     {% endif %}
-    {% if user.hireable %}
-      <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
-    {% endif %}
     <div>
       <img align="center" src="https://img.shields.io/badge/code-python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a"/>
       <img align="center" src="https://img.shields.io/badge/code-C%23-informational?style=flat&logo=C%23&logoColor=white&color=2bbc8a"/>
@@ -64,4 +61,8 @@
     </div>
     
   </div>
+    {% if user.hireable %}
+      <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
+    {% endif %}
+    
 {% endif %}
