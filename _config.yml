@@ -1,6 +1,6 @@
 layout: sidebar
 style: dark
-logo: https://github.com/CiTRuS93/CiTRuS93.github.io/blob/master/citrus.svg
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
