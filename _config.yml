@@ -26,6 +26,7 @@ projects:
     archived: false
     forks: true
     projects:
+      - Signals-and-Systems-Course
     # - repo-name
 
 social_media:
