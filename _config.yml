@@ -21,12 +21,14 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 4
   exclude:
     archived: false
     forks: true
     projects:
       - Signals-and-Systems-Course
+      - NumericCourseJupyter
+      - CiTRuS93
     # - repo-name
 
 social_media:
