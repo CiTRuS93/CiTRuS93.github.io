@@ -27,7 +27,7 @@ projects:
     forks: true
     projects:
       - Signals-and-Systems-Course
-      - NumericCourseJupyter
+    #  - NumericCourseJupyter
       - CiTRuS93
     # - repo-name
 
