@@ -28,7 +28,7 @@ projects:
     projects:
 
       - Signals-and-Systems-Course
-    #  - CiTRuS93
+      - CiTRuS93
     #  - NumericCourseJupyter
 
     # - repo-name
