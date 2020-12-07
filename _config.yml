@@ -26,9 +26,10 @@ projects:
     archived: false
     forks: true
     projects:
+      - CiTRuS93
       - Signals-and-Systems-Course
     #  - NumericCourseJupyter
-      - CiTRuS93
+
     # - repo-name
 
 social_media:
