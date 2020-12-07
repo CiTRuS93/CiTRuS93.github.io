@@ -26,7 +26,6 @@ projects:
     archived: false
     forks: true
     projects:
-
       - Signals-and-Systems-Course
       - CiTRuS93
     #  - NumericCourseJupyter
